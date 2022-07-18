@@ -16,15 +16,15 @@ const  Semaforo = () =>  {
       
       <div
         onClick={() => setSelectedColor("red")}
-        className={"light red" + (selectedColor === "red" ? " glow" : "")}
+        className={"light red" + (selectedColor === "red" ? " glowRed" : "")}
       ></div>
       <div
         onClick={() => setSelectedColor("yellow")}
-        className={"light yellow" + (selectedColor === "yellow" ? " glow" : "")}
+        className={"light yellow" + (selectedColor === "yellow" ? " glowYellow" : "")}
       ></div>
       <div
         onClick={() => setSelectedColor("green")}
-        className={"light green" + (selectedColor === "green" ? " glow" : "")}
+        className={"light green" + (selectedColor === "green" ? " glowGreen" : "")}
       ></div>
     </div>
     </div>
